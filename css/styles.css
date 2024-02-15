@@ -1,0 +1,180 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:Calibri;
+}
+/*Home page Background image*/
+.container{
+    background-image:url('../images/tkh3.jpg');
+    background-size:cover;
+    height:100vh;
+    width:100%;
+}
+/*Navigation bar*/
+.nav{
+    background-color:whitesmoke;
+    color:black;
+    width:100%;
+    height:45px;
+}
+.menu{
+    width:50%;
+}
+.menu a{
+    color:black;
+    text-decoration:none;
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
+    padding-left:20px;
+    padding: 14px 16px;
+    text-transform: uppercase;
+}
+.menu a:hover{
+    color:red;
+}
+.menu a:hover:not(.active) {
+    background-color:rgb(209, 199, 199);
+             }
+.active {
+        background-color:rgb(255, 74, 74);
+        }
+.text1{
+    text-align:center;
+    text-transform:uppercase;
+    width:100%;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+}
+/*Adding styles for Footer*/
+footer{
+    position:fixed;
+    bottom:0;
+    background-color:whitesmoke;
+    width:100%;
+    text-align:center;
+    padding:10px 0;
+    color:black;
+    font-weight:bold;
+}
+/*Background image*/
+.bgc{
+    background-image:url(../images/11.jpg);
+    color:white; 
+    text-align:center;
+    width:100%;
+    height:12vh;
+}
+/*text styles*/
+.text2{
+    width:100%;
+    height:100%;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    text-transform:uppercase;
+}
+.text3{
+    justify-content:center;
+    align-items:center;
+    color:red;
+    font-size:50px;
+    text-transform:uppercase;
+}
+/*table styles*/
+.tbl{
+    width:100%;
+    text-align:center;
+}
+.tbl td{
+    padding-top: 0px;
+    color:black;
+    font: size 25px;
+}
+.tbl img{
+    width:300px;
+    height:400px;
+}
+/*background image*/
+.bgc2{
+    background-image:url(../images/tkh2.jpg);
+    color:white; 
+    text-align:center;
+    width:100%;
+    height:12vh;
+}
+/*table styles*/
+.tbl2{
+    width:100%;
+    text-align:center;
+}
+.tbl2 td{
+    padding-top:0px;
+    color:black;
+    text-align:center;
+}
+.tbl2 img{
+    height:155px;
+    width:135px;
+    padding-left:121px;
+    padding-right:121px;
+}
+/*table styles*/
+.tbl3{
+    width:100%;
+    text-align:center;
+}
+.tbl3 td{
+    padding-top: 0px;
+    color:black;
+    text-align:center;
+    border-left:2px solid lightgray;
+}
+.tbl3 img{
+    width:400px;
+    height:300px;
+    padding-left:175px;
+    padding-right:175px;
+}
+/*adding styles for form*/
+form{
+    padding-left:150px;
+    padding-right:150px;
+}
+legend{
+    font-size: 20px;
+    color:red;
+}
+.container2{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 30px;
+    margin-left:10px;
+    margin-right:10px;
+}
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+input[type=submit]{
+    background-color:red;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+.text4{
+    text-align:left;
+    text-transform:uppercase;
+    align-items:center;
+    color:black;
+    font-size: 15px;
+}
+
